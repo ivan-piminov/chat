@@ -1,0 +1,100 @@
+.custom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    background-image: url("https://media.kasperskydaily.com/wp-content/uploads/sites/90/2019/09/11144227/internet-in-space-featured-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 10px;
+}
+
+.message-wrapper {
+    width: 100%;
+    height: 60vh;
+    padding-left: 15px;
+
+}
+
+.message {
+    width: fit-content;
+}
+
+.custom-message {
+    width: fit-content;
+    background-color: lightgreen;
+}
+
+.your-message {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.your-message:last-child {
+    padding-bottom: 10px;
+}
+
+.interlocutor-message {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.main {
+    padding-top: 100px;
+    height: calc(100vh - 56px);
+    background-image: url("https://krot.info/uploads/posts/2021-01/1610479474_2-p-krutoi-fon-dlya-youtube-5.jpg");
+    background-size: 100% 100%;
+}
+
+.emoji-panel {
+    position: absolute;
+    left:25px;
+    bottom: 40px;
+}
+
+.emoji-btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.emoji-box {
+    position: relative;
+}
+
+.emoji-bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+
+
